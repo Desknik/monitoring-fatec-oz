@@ -1,13 +1,11 @@
 {
   "index": "Introdução",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
+  "discord":{
+    "title": "Discord ↗",
+    "href": "https://discord.gg/thtgt56wJc",
     "newWindow": true
+  },
+  "---": {
+    "type": "separator"
   }
 }
