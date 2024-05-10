@@ -1,6 +1,8 @@
 # Resoluções  -  Operadores de Concatenação
 
-## Ex 01 - Venda de Carros:
+## Ex 01 - Venda de Carros
+
+### Enunciado
 
 Faça um programa que pega recebe o nome, marca e o ano de um carro, e mostre as informações no terminal seguindo o modelo de saída:
 
@@ -17,26 +19,30 @@ Vendo carro: Civic, da marca Honda,ano: 2022
 
 ```
 
-### Resolução em Python:
 
-```python
+### Resoluções
 
-nome = input("Digite o nome do carro:")
-marca = input("Digite o marca do carro:")
-ano = input("Digite o ano do carro:")
+import { Tabs } from 'nextra/components'
+ 
+<Tabs items={['Python', 'JS']}>
+  <Tabs.Tab>
+    ```python filename="Exemplo em Python"
 
-print(f"Vendo carro: {nome}, da marca {marca},ano: {ano}")
+    nome = input("Digite o nome do carro:")
+    marca = input("Digite o marca do carro:")
+    ano = input("Digite o ano do carro:")
 
-```
+    print(f"Vendo carro: {nome}, da marca {marca},ano: {ano}")
 
+    ```
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js filename="Exemplo em JavaScript"
+    const nome = input("Digite o nome do carro:")
+    const marca = input("Digite o marca do carro:")
+    const ano = input("Digite o ano do carro:")
 
-### Resolução em JavaScript:
-
-```js
-
-const nome = input("Digite o nome do carro:")
-const marca = input("Digite o marca do carro:")
-const ano = input("Digite o ano do carro:")
-
-print(`Vendo carro: ${nome}, da marca ${marca},ano: ${ano}`)
-
+    print(`Vendo carro: ${nome}, da marca ${marca},ano: ${ano}`)
+    ```
+  </Tabs.Tab>
+</Tabs>
